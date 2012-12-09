@@ -1,0 +1,81 @@
+* {margin: 0; padding: 0;}
+html, body {height: 100%; background: #bcab8b;}
+#wrap {
+position: relative;
+margin: 0 auto 0;
+width: 750px;
+padding: 0 10px;
+background: #fff;
+min-height: 100%;
+_height: 100%;
+}
+#header {
+postion: relative;
+width: 730px;
+height: 47px;
+padding: 25px 10px 0;
+font: italic 24px Arial, sans-serif;
+color: #2c1703;
+}
+.phone {
+float: right;
+margin: 7px 0 0 120px;
+font: italic 15px Arial;
+}
+.mail {
+float: right;
+margin: 7px 0 0;
+font: 15px Arial;
+}
+#top {
+position: relative;
+width: 750px;
+}
+#slider {z-index: 1;}
+#menu {
+position: absolute;
+bottom: 0;
+left: 0;
+font: 14px Tahoma;
+z-index: 10;
+}
+#menu ul {list-style: none;}
+#menu ul li {float: left; display: inline;}
+#menu a, #menu a:visited {color: #fff; text-decoration: none; display: block; overflow: hidden; padding: 10px 31px;}
+*:first-child+html #menu a {padding: 14px 34px;}
+#menu a:hover, #menu a:active {text-decoration: underline;}
+.block1 {width: 150px; margin:0 0 5px 5px; float:right; padding: 12px; border: 1px solid #800000;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+-khtml-border-radius:10px;
+border-radius:10px;
+behavior:url(border-radius.htc);
+ } 
+#content {position: relative; width: 750px; padding: 41px 0; font: 12px/18px Tahoma, sans-serif;}
+h1 {padding: 10px; font: 18px Tahoma; color: #800000;}
+h2 {padding: 10px; font: 14px Tahoma; color: #800000;}
+#rasp {
+position: relative;
+height: 29px;
+}
+#footer {
+position: relative;
+margin: 0 auto 0;
+height: 26px;
+margin-top: -41px;
+width: 749px;
+text-align: center;
+color: #fff;
+font: 11px Tahoma, serif;
+padding: 15px 0 0;
+background: #54413C url(/img/design/footer.jpg) no-repeat top;
+}
+#footer a {color: #fff;}
+#content a {color:rgb(128, 0, 0);}
+
+.r_block {
+width: 180px; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 5px; float: right; padding-top: 12px; padding-right: 12px; padding-bottom: 12px; padding-left: 12px; border-top-color: rgb(128, 0, 0); border-left-color: rgb(128, 0, 0); border-right-color: rgb(128, 0, 0); border-bottom-color: rgb(128, 0, 0); border-top-width: 1px; border-left-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-left-style: solid; border-right-style: solid; border-bottom-style: solid; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; text-align: center
+}
+
+.gall {left:65px; position:relative;}
+#example {margin: 2px 2px;}

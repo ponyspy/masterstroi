@@ -1,0 +1,12 @@
+h2 Авторизация
+form(action='/user/login', method='post')
+	|Логин:
+	br
+	input(type='text', name='user')
+	br
+	|Пароль:
+	br
+	input(type='password', name='password')
+	br
+	br
+	input(type='submit', value='Вход')

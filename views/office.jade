@@ -1,0 +1,9 @@
+- var files = files
+h1 Ремонт офисов
+br
+div.gall
+	div#mygal
+		each file in files
+			- var file = "/img/demo/p3/" + file
+			a#example(href=file)
+				img(width="150px", height="100px", src=file)
